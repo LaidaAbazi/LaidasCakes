@@ -17,13 +17,13 @@ body{
 }
 
  .logo{
-    display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items:self-end;
+    padding-left: 30px;
 }
  .logo img{
     height: 4rem;
-    width: 4rem;
+    width: 5rem;
 }
   .logo h2{
     font-family: 'Brush Script MT', cursive;
